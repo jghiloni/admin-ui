@@ -31,7 +31,6 @@ stats_retry_interval: 300
 uaa_client:
   id: ${admin_ui_client}
   secret: ${admin_ui_secret}
-uaadb_uri: postgres://uaaadmin:admin@10.244.0.30:5524/uaadb
 uaadb_uri: mysql2://${uaadb_user}:${uaadb_password}@${uaadb_host_port}/uaa
 uaa_groups_admin: [ admin_ui.admin ]
 uaa_groups_user: [ admin_ui.user ] 
